@@ -1,0 +1,67 @@
+name: Hardverapro scraper
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: hardverapro-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: github-scraper
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Pages
+        uses: actions/configure-pages@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Restore previous state
+        env:
+          PAGES_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: |
+          curl -fsSL "$PAGES_BASE_URL/state.json" -o state.json || true
+
+      - name: Run scraper
+        env:
+          HARDVERAPRO_URL: ${{ vars.HARDVERAPRO_URL }}
+          STATE_FILE: state.json
+          OUTPUT_FILE: api/latest.json
+          MAX_ITEMS: 100
+        run: node index.js
+
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p dist
+          cp api/latest.json dist/latest.json
+          if [ -f state.json ]; then
+            cp state.json dist/state.json
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: github-scraper/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
