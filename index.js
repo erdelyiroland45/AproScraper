@@ -249,6 +249,15 @@ async function loadState(stateFile) {
   }
 }
 
+async function loadJson(filePath) {
+  try {
+    const raw = await fs.readFile(filePath, "utf8");
+    return JSON.parse(raw);
+  } catch (err) {
+    return null;
+  }
+}
+
 async function saveState(stateFile, state) {
   await fs.mkdir(path.dirname(stateFile), { recursive: true });
   await fs.writeFile(stateFile, `${JSON.stringify(state, null, 2)}\n`, "utf8");
@@ -266,10 +275,55 @@ async function main() {
   }
 
   const stateFile = resolveStateFile();
-  const html = await fetchHardveraproPage(pageUrl);
-  const allItems = extractItems(html, pageUrl);
   const filters = parseUrlFilters(pageUrl);
   const state = await loadState(stateFile);
+  const previousOutput = await loadJson(OUTPUT_FILE);
+
+  let html;
+  try {
+    html = await fetchHardveraproPage(pageUrl);
+  } catch (err) {
+    if (previousOutput) {
+      await saveJson(OUTPUT_FILE, previousOutput);
+      console.error(err instanceof Error ? err.stack || err.message : String(err));
+      console.error("Hardverapro is temporarily unavailable; reusing the previous output.");
+      return;
+    }
+
+    const generatedAt = new Date().toISOString();
+    const fallbackOutput = {
+      ok: false,
+      error: err instanceof Error ? err.message : String(err),
+      source: {
+        name: "hardverapro",
+        url: pageUrl,
+        generatedAt,
+        status: "unavailable",
+      },
+      filters,
+      pagination: {
+        limit: MAX_ITEMS,
+        totalItems: 0,
+        returnedItems: 0,
+        newItems: 0,
+        hasMore: false,
+      },
+      state: {
+        lastItemUrl: state ? state.lastItemUrl : null,
+        hasStoredState: Boolean(state),
+      },
+      items: [],
+      newItems: [],
+    };
+
+    await saveJson(OUTPUT_FILE, fallbackOutput);
+    console.error(err instanceof Error ? err.stack || err.message : String(err));
+    console.error("Hardverapro is temporarily unavailable; published a fallback payload.");
+    console.log(JSON.stringify(fallbackOutput, null, 2));
+    return;
+  }
+
+  const allItems = extractItems(html, pageUrl);
   const lastItemUrl = state ? state.lastItemUrl : null;
 
   let newItems = allItems;
