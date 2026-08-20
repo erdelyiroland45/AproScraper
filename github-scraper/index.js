@@ -9,6 +9,14 @@ const COOKIE_TO_FETCH_200_ITEMS = "lstup.d.200.normal";
 const STATE_FILE = process.env.STATE_FILE || "state.json";
 const OUTPUT_FILE = process.env.OUTPUT_FILE || "api/latest.json";
 const MAX_ITEMS = Number.parseInt(process.env.MAX_ITEMS || "100", 10);
+const FETCH_RETRIES = Number.isFinite(Number.parseInt(process.env.FETCH_RETRIES || "", 10))
+  ? Number.parseInt(process.env.FETCH_RETRIES || "", 10)
+  : 3;
+const FETCH_RETRY_BASE_DELAY_MS = Number.isFinite(
+  Number.parseInt(process.env.FETCH_RETRY_BASE_DELAY_MS || "", 10)
+)
+  ? Number.parseInt(process.env.FETCH_RETRY_BASE_DELAY_MS || "", 10)
+  : 1500;
 
 function parseUrlFilters(pageUrl) {
   const out = {};
@@ -130,6 +138,28 @@ function normalizeHardveraproUrl(url) {
   return `${HARDVERAPRO_BASE}${trimmed.startsWith("/") ? "" : "/"}${trimmed}`;
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isRetryableStatus(status) {
+  return status === 429 || status === 500 || status === 502 || status === 503 || status === 504;
+}
+
+function buildHardveraproHeaders() {
+  return {
+    "User-Agent": USER_AGENT,
+    Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "hu-HU,hu;q=0.9,en-US;q=0.8,en;q=0.7",
+    Connection: "keep-alive",
+    "Cache-Control": "no-cache",
+    Pragma: "no-cache",
+    Referer: HARDVERAPRO_BASE,
+    "Upgrade-Insecure-Requests": "1",
+    Cookie: `prf_ls_uad=${COOKIE_TO_FETCH_200_ITEMS}`,
+  };
+}
+
 function createItemObject($, element) {
   try {
     const anchor = $(element).find("h1 > a").first();
@@ -183,22 +213,31 @@ function extractItems(html, pageUrl) {
 }
 
 async function fetchHardveraproPage(pageUrl) {
-  const response = await fetch(pageUrl, {
-    headers: {
-      "User-Agent": USER_AGENT,
-      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      "Accept-Language": "hu-HU,hu;q=0.9,en-US;q=0.8,en;q=0.7",
-      Connection: "keep-alive",
-      "Upgrade-Insecure-Requests": "1",
-      Cookie: `prf_ls_uad=${COOKIE_TO_FETCH_200_ITEMS}`,
-    },
-  });
+  let lastError = null;
 
-  if (!response.ok) {
-    throw new Error(`Hardverapro request failed with HTTP ${response.status}`);
+  for (let attempt = 1; attempt <= Math.max(1, FETCH_RETRIES); attempt += 1) {
+    const response = await fetch(pageUrl, {
+      headers: buildHardveraproHeaders(),
+    });
+
+    if (response.ok) {
+      return response.text();
+    }
+
+    const body = await response.text().catch(() => "");
+    const suffix = body ? `: ${body.slice(0, 200).replace(/\s+/g, " ").trim()}` : "";
+    const error = new Error(`Hardverapro request failed with HTTP ${response.status}${suffix}`);
+    lastError = error;
+
+    if (!isRetryableStatus(response.status) || attempt >= Math.max(1, FETCH_RETRIES)) {
+      throw error;
+    }
+
+    const delayMs = FETCH_RETRY_BASE_DELAY_MS * attempt;
+    await sleep(delayMs);
   }
 
-  return response.text();
+  throw lastError || new Error("Hardverapro request failed unexpectedly");
 }
 
 async function loadState(stateFile) {
