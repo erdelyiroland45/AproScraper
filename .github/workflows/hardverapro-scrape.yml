@@ -17,12 +17,19 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: github-scraper
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Locate scraper directory
+        id: locate
+        shell: bash
+        run: |
+          if [ -f "github-scraper/package.json" ]; then
+            echo "scraper_dir=github-scraper" >> "$GITHUB_OUTPUT"
+          else
+            echo "scraper_dir=." >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Set up Pages
         uses: actions/configure-pages@v5
@@ -33,15 +40,18 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
+        working-directory: ${{ steps.locate.outputs.scraper_dir }}
         run: npm install
 
       - name: Restore previous state
+        working-directory: ${{ steps.locate.outputs.scraper_dir }}
         env:
           PAGES_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
         run: |
           curl -fsSL "$PAGES_BASE_URL/state.json" -o state.json || true
 
       - name: Run scraper
+        working-directory: ${{ steps.locate.outputs.scraper_dir }}
         env:
           HARDVERAPRO_URL: ${{ vars.HARDVERAPRO_URL }}
           STATE_FILE: state.json
@@ -50,6 +60,7 @@ jobs:
         run: node index.js
 
       - name: Prepare Pages artifact
+        working-directory: ${{ steps.locate.outputs.scraper_dir }}
         run: |
           mkdir -p dist
           cp api/latest.json dist/latest.json
@@ -60,7 +71,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: github-scraper/dist
+          path: ${{ steps.locate.outputs.scraper_dir }}/dist
 
       - name: Deploy to GitHub Pages
         id: deployment
