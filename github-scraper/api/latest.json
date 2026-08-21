@@ -1,0 +1,655 @@
+{
+  "ok": true,
+  "source": {
+    "name": "hardverapro",
+    "url": "https://hardverapro.hu/aprok/mobil/index.html",
+    "generatedAt": "2026-08-21T08:47:56.049Z"
+  },
+  "filters": {},
+  "pagination": {
+    "limit": 100,
+    "totalItems": 79,
+    "returnedItems": 79,
+    "newItems": 0,
+    "hasMore": false
+  },
+  "state": {
+    "lastItemUrl": "https://hardverapro.hu/apro/google_pixel_9_pro_fold_256gb_2/friss.html",
+    "hasStoredState": false
+  },
+  "items": [
+    {
+      "url": "https://hardverapro.hu/apro/google_pixel_9_pro_fold_256gb_2/friss.html",
+      "title": "Google Pixel 9 Pro Fold 256Gb",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7667835/20230324_030308.jpg/100",
+      "price": "190 000 Ft",
+      "location": "Miskolc, Szerencs",
+      "updated": "ma 10:47"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/oneplus_11_256_16_gb_zold_2/friss.html",
+      "title": "Oneplus 11 256/16 GB zöld",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7670884/001.jpg/100",
+      "price": "80 000 Ft",
+      "location": "Szentendre",
+      "updated": "ma 10:46"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/oneplus_11_256_16_gb_zold/friss.html",
+      "title": "Oneplus 11 256/16 GB zöld",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7670834/tel.jpg/100",
+      "price": "80 000 Ft",
+      "location": "Szentendre",
+      "updated": "ma 10:45"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_13_128gb_qsla/friss.html",
+      "title": "iPhone 13 128GB",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674067/64d8a395-bfba-4a66-8fe4-11c4f28b42e0.jpg/100",
+      "price": "80 000 Ft",
+      "location": "Kalocsa",
+      "updated": "ma 10:45"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_galaxy_s24_ultra_5g_256gb_dual_sim_titaniu_7/friss.html",
+      "title": "Samsung Galaxy S24 Ultra 5G 256GB Dual SIM Titanium Gray Gyárilag független Csere/beszámítás is!",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7672569/20240709_193747.jpg/100",
+      "price": "200 000 Ft",
+      "location": "Budapest, Debrecen, Szeged",
+      "updated": "ma 10:44"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_magneses_vezeteknelkuli_tolto/friss.html",
+      "title": "Samsung Mágneses Vezetéknélküli Töltő",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7656211/20260807_124209.jpg/100",
+      "price": "12 990 Ft",
+      "location": "Tura",
+      "updated": "ma 10:44"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/s26_ultra_torras_tok/friss.html",
+      "title": "Samsung Galaxy S26 Ultra Torras Tok",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7656195/20260807_124425.jpg/100",
+      "price": "12 990 Ft",
+      "location": "Tura",
+      "updated": "ma 10:44"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/baseus_type_c_type_c_kabel_100_w-os_iphone_15_16_1_7/friss.html",
+      "title": "BASEUS TYPE C -TYPE C KÁBEL 100 W-os iphone 15,16,17 ,Ipad illetve minden TYPE-C telefonhoz..",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7657398/0.jpg/100",
+      "price": "3 500 Ft",
+      "location": "II. kerület",
+      "updated": "ma 10:43"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/baseus_1_5_meteres_type-c-lighting_usb_lighting_ty_rkck/friss.html",
+      "title": "Baseus 1.5 méteres Type-C-lighting,USB- lighting, Type-C-Type-C gyors töltő kábelek.",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7657395/1.jpg/100",
+      "price": "2 500 Ft",
+      "location": "II. kerület",
+      "updated": "ma 10:43"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_13_14_15_16_17_minden_tipusara_utes_vedos_v_8/friss.html",
+      "title": "iPHONE 13,14,15,16,17 minden típusára ütés védős vastag átlátszó szilikon tokok",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7657391/1.jpg/100",
+      "price": "2 000 Ft",
+      "location": "II. kerület",
+      "updated": "ma 10:43"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/airtag_bortokok_wykk/friss.html",
+      "title": "Airtag bőrtokok.",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7657388/1.jpg/100",
+      "price": "2 000 Ft",
+      "location": "II. kerület",
+      "updated": "ma 10:43"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_11_12_13_14_15_16_17_osszes_tipusahoz_kamer_8/friss.html",
+      "title": "iPHONE 11,12,13,14.15,16,17 összes típusához kameravédő üvegfólia.",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7657390/1.jpg/100",
+      "price": "1 500 Ft",
+      "location": "II. kerület",
+      "updated": "ma 10:43"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_12_13_14_15_16_17_osszes_tipusahoz_magsafe_8/friss.html",
+      "title": "iPHONE 12,13,14,15,16,17 összes típusához magsafe átlátszó szilikonon tok.",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7657385/1.jpg/100",
+      "price": "3 000 Ft",
+      "location": "II. kerület",
+      "updated": "ma 10:43"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_x_11_12_13_14_15_16_17_osszes_tipusahoz_tel_8/friss.html",
+      "title": "iPHONE X,11,12,13,14.15,16,17 összes típusához teljes kijelzős üvegfólia.",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7657387/2.jpg/100",
+      "price": "2 000 Ft",
+      "location": "II. kerület",
+      "updated": "ma 10:43"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/hasznalt_mikrousb_toltok_es_toltofejek_samsung_lg_2/friss.html",
+      "title": "Használt mikroUSB töltők és töltőfejek (Samsung, LG, Sony Ericsson) és mikroUSB kábelek",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7658355/telefon_tolto_es_uusb_kabel.jpg/100",
+      "price": "100 Ft",
+      "location": "Eger",
+      "updated": "ma 10:43"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/xiaomi_15_12_256gb_premium_csucskeszulek_garanciav/friss.html",
+      "title": "Xiaomi 15 12/256GB Prémium csúcskészülék, garanciával, számlával",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7669485/20260817_173932.jpg/100",
+      "price": "200 000 Ft",
+      "location": "Novajidrány",
+      "updated": "ma 10:42"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/realme_watch_5_mint_az_uj_ingyen_posta/friss.html",
+      "title": "REALME Watch 5 Mint az ÚJ! INGYEN POSTA!",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7657451/20260808_132143.jpg/100",
+      "price": "10 000 Ft",
+      "location": "Győr",
+      "updated": "ma 10:41"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/ticwatch_e_okosora_wear_os_kivalo_allapotban_doboz_2/friss.html",
+      "title": "TicWatch E Okosóra Wear OS kiváló állapotban dobozában! Ingyen szállítás!",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7668285/20260816_191655.jpg/100",
+      "price": "9 990 Ft",
+      "location": "Győr",
+      "updated": "ma 10:41"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/honor_magic_6_pro_12_512_garis/friss.html",
+      "title": "Honor Magic 6 Pro 12/512 Garis",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7638522/img_20260723_161647_2.jpg/100",
+      "price": "139 000 Ft",
+      "location": "Harkány, Pécs, Siklós",
+      "updated": "ma 10:40"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_iphone_17_promax_256gb_fuggetlen/friss.html",
+      "title": "Apple iPhone 17 ProMax 256GB Független",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674056/att_46pklzdcupyspnqnlkqh4u2kgpgrgd3glvbyf4njbpe.jpg/100",
+      "price": "410 000 Ft",
+      "location": "Szomód",
+      "updated": "ma 10:38"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_galaxy_a55_5g_full_makulatlan_akar_az_uj/friss.html",
+      "title": "Samsung Galaxy A55 5G Full makulátlan!!! Akár az új!",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674055/20260818_120032.jpg/100",
+      "price": "59 990 Ft",
+      "location": "Bagod, Zalaegerszeg",
+      "updated": "ma 10:38"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/0_perces_samsung_galaxy_s26_ultra_5g_12_256gb_dual_3/friss.html",
+      "title": "0 perces Samsung Galaxy S26 Ultra 5G 12/256GB Dual Sim, Kártyafüggetlen, Sky Blue, 24 hónap garancia",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7662591/galaxy_s26_ultra_sky_blue.jpg/100",
+      "price": "349 990 Ft",
+      "location": "Győr",
+      "updated": "ma 10:38"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/0_perces_samsung_galaxy_a37_5g_6_128gb_dual_sim_ka_3/friss.html",
+      "title": "0 perces Samsung Galaxy A37 5G 6/128GB, Dual Sim, Kártyafüggetlen, Fekete, Fehér 12 hónap garancia",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7655570/galaxy_a37_fekete.jpg/100",
+      "price": "109 990 Ft",
+      "location": "Győr",
+      "updated": "ma 10:38"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/0_perces_samsung_galaxy_s26_ultra_5g_12_256gb_dual_4/friss.html",
+      "title": "0 perces Samsung Galaxy S26 Ultra 5G 12/256GB Dual Sim, Kártyafüggetlen, Fekete, 24 hónap garancia",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7672375/galaxy_s26_ultra_fekete.jpg/100",
+      "price": "349 990 Ft",
+      "location": "Győr",
+      "updated": "ma 10:38"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_se2_64gb_7/friss.html",
+      "title": "iPhone SE2 - 64GB",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674054/img_0657.jpg/100",
+      "price": "25 000 Ft",
+      "location": "IV. kerület",
+      "updated": "ma 10:38"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_galaxy_s26_plus_256gb_5g_ds_cobalt_violet/friss.html",
+      "title": "Samsung Galaxy S26 Plus 256gb,5G,DS Cobalt Violet. Független.",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7655065/img_20260806_130812.jpg/100",
+      "price": "280 000 Ft",
+      "location": "Budapest, Gyál, Ócsa",
+      "updated": "ma 10:38"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/sotetszurke_aluminium_apple_watch_toltoallvany/friss.html",
+      "title": "sötétszürke alumínium Apple Watch töltőállvány",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7658733/apple_watch_allvany.jpg/100",
+      "price": "2 000 Ft",
+      "location": "XI. kerület",
+      "updated": "ma 10:36"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/google_pixel_6_pro_128_gb_3/friss.html",
+      "title": "Google Pixel 6 pro 128 GB",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674048/1787301148801_1.jpg/100",
+      "price": "59 900 Ft",
+      "location": "Sopron",
+      "updated": "ma 10:35"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/nokia_x30_8_256gb_elado/friss.html",
+      "title": "Nokia X30 5G 8/256GB eladó",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7647192/pxl_20260731_054030940.jpg/100",
+      "price": "47 500 Ft",
+      "location": "III. kerület",
+      "updated": "ma 10:35"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_17_pro_256gb_ujszeru_allapot_native_union_t/friss.html",
+      "title": "iPhone 17 Pro 256GB Újszerű állapot + Native Union tok",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7660940/img_1173.jpg/100",
+      "price": "370 000 Ft",
+      "location": "V. kerület",
+      "updated": "ma 10:35"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/elado_iphone_14_pro_max_256gb_hibatlan_allapot_gar_9/friss.html",
+      "title": "Eladó iPhone 14 Pro Max 256GB Hibátlan állapot, garanciával, 96% aksi! iOS 18.3.2",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674046/img_6078.jpg/100",
+      "price": "225 000 Ft",
+      "location": "XV. kerület",
+      "updated": "ma 10:33"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_16_pro_kiegeszitok_tokok_eladok_3/friss.html",
+      "title": "Iphone 16 Pro kiegészítők, tokok eladók.",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674044/img_8391.jpg/100",
+      "price": "34 999 Ft",
+      "location": "Baja",
+      "updated": "ma 10:33"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/ipad_10_generacio_64gb_wifi_kek_apple_pencil_usb-c/friss.html",
+      "title": "iPad 10. generáció 64GB WiFi kék + Apple Pencil USB-C újszerű, garanciás",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674043/115dcec1-eac0-4798-badc-b5789125bc5e.jpg/100",
+      "price": "125 000 Ft",
+      "location": "Kecskemét",
+      "updated": "ma 10:32"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_iphone_14_pro_tokok/friss.html",
+      "title": "Apple iPhone 14 Pro tokok",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7669549/fr_559_size1024.jpg/100",
+      "price": "100 Ft",
+      "location": "Veszprém",
+      "updated": "ma 10:32"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_watch_46_mm-es_femszij_2/friss.html",
+      "title": "APPLE Watch 46 mm-es fémszíj",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7656845/img_0320.jpg/100",
+      "price": "79 999 Ft",
+      "location": "Budapest, Mátészalka, Nyíregyháza",
+      "updated": "ma 10:32"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/spigen_glastr_slim_iphone_x_xs_11pro_1db/friss.html",
+      "title": "Spigen GlastR Slim iPhone 11Pro/Xs/X 1db",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7669567/fr_561_size1024.jpg/100",
+      "price": "2 500 Ft",
+      "location": "Veszprém",
+      "updated": "ma 10:32"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/google_pixel_11_pro_1tb_obszidian_bontatlan_3_ev_a/friss.html",
+      "title": "Google Pixel 11 Pro 1TB obszidián bontatlan 3 év Alza garanciával",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674042/img20260821100543.jpg/100",
+      "price": "460 000 Ft",
+      "location": "XV. kerület",
+      "updated": "ma 10:32"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_iphone_5s_kartyafuggetlen_dobozaban_jo_akkuv/friss.html",
+      "title": "Apple iPhone 5s kártyafüggetlen dobozában jó akkuval",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7664917/img20260814081505.jpg/100",
+      "price": "9 000 Ft",
+      "location": "Budaörs, V. kerület, Hévízgyörk",
+      "updated": "ma 10:31"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_12_mini_128gb_85/friss.html",
+      "title": "Iphone 12 mini 128GB 85%",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674040/messenger_creation_1daad043-cb21-495d-b5fb-4a0a9fe.jpg/100",
+      "price": "42 000 Ft",
+      "location": "XIV. kerület",
+      "updated": "ma 10:30"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/garmin_quickfit_22-mmes_szijak_eladok_6/friss.html",
+      "title": "Garmin quickfit 22-mmes szíjak eladók.",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674039/img_9347.jpg/100",
+      "price": "1 499 Ft",
+      "location": "Baja",
+      "updated": "ma 10:29"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/nokia_lumia_630_rm-976_mobiltelefon_alkatresznek_zwnk/friss.html",
+      "title": "Nokia Lumia 630 ( RM-976 ) mobiltelefon ( alkatrésznek )",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7658334/nokia_lumia_630_mobiltelefon-01.jpg/100",
+      "price": "4 999 Ft",
+      "location": "Sopron",
+      "updated": "ma 10:29"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/siemens_a50_retro_mobiltelefon_alkatresznek_gyujto_5/friss.html",
+      "title": "Siemens A50 retro mobiltelefon ( alkatrésznek, gyűjtőknek )",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7651295/siemens_a50_mobiltelefon-01.jpg/100",
+      "price": "1 999 Ft",
+      "location": "Sopron",
+      "updated": "ma 10:29"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/media-tech_doublephone_mt847_retro_mobiltelefon_al_4/friss.html",
+      "title": "Media-Tech \"Doublephone\" MT847 retro mobiltelefon ( alkatrésznek )",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7651290/media-tech_mobiltelefon-01.jpg/100",
+      "price": "1 999 Ft",
+      "location": "Sopron",
+      "updated": "ma 10:28"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/lg_optimus_l5_ii_lg-e460_mobiltelefon_mukodo_6/friss.html",
+      "title": "LG Optimus L5 II. ( LG-E460 ) mobiltelefon ( működő )",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7647696/lg_optimus_l5_ii_mobiltelefon-03.jpg/100",
+      "price": "9 999 Ft",
+      "location": "Sopron",
+      "updated": "ma 10:28"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/xiaomi_mi10_mi_10_pro_8_256_gb_kartyafuggetlen_sze/friss.html",
+      "title": "-Olcsóbb lett-Xiaomi Mi10 Mi 10 Pro 8/256 GB kártyafüggetlen, szép állapotban, tartozékokkal+új akku",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7638181/1.jpg/100",
+      "price": "59 990 Ft",
+      "location": "V. kerület",
+      "updated": "ma 10:28"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/ujszeru_apple_ipad_air_6_gen_11_m2_wi-fi_128gb_spa/friss.html",
+      "title": "Újszerű Apple iPad Air 6.gen 11\" M2 Wi-Fi, 128GB, Space gray, 12 hónap garancia",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7624896/ipad_air_6_wifi.jpg/100",
+      "price": "169 990 Ft\n\t\t\t\t\t\t\t jegelve",
+      "location": "Győr",
+      "updated": "ma 10:28"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/elado_apple_iphone_13_256_gb_makulatlan_allapot_ka/friss.html",
+      "title": "Eladó Apple iPhone 13 256 GB Makulátlan állapot, kategóriaváltás miatt",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7655624/img_1485.jpg/100",
+      "price": "110 000 Ft",
+      "location": "Budapest, Siófok",
+      "updated": "ma 10:25"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_galaxy_s23_ultra_8_256_5/friss.html",
+      "title": "Samsung Galaxy S23 Ultra 8/256",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674035/img_20260811_073954.jpg/100",
+      "price": "79 990 Ft",
+      "location": "IV. kerület, VI. kerület, XIII. kerület",
+      "updated": "ma 10:25"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_galaxy_watch_8_44mm_ym64/friss.html",
+      "title": "Samsung Galaxy Watch 8 44mm",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7673809/20260820_223712.jpg/100",
+      "price": "55 000 Ft",
+      "location": "Székesfehérvár",
+      "updated": "ma 10:24"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/elado_samsung_s25_ultra_12_512_gb/friss.html",
+      "title": "eladó Samsung S25 ultra 12/512 Gb",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7659712/2026-08-10_10_10_43.jpg/100",
+      "price": "300 000 Ft",
+      "location": "XI. kerület",
+      "updated": "ma 10:24"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_galaxy_a57_5g_128gb_szurke/friss.html",
+      "title": "Samsung Galaxy A57 5G 128GB szürke",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7662629/img_3689.jpg/100",
+      "price": "139 000 Ft",
+      "location": "VIII. kerület",
+      "updated": "ma 10:23"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_galaxy_s25_ultra_5g_256gb_fekete/friss.html",
+      "title": "Samsung Galaxy S25 Ultra 5G 256GB fekete",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7662636/img_3693.jpg/100",
+      "price": "319 000 Ft",
+      "location": "VIII. kerület",
+      "updated": "ma 10:23"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_iphone_13_pro_max_128gb_feher/friss.html",
+      "title": "Apple iPhone 13 Pro Max 128GB fehér",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7662567/img_3666.jpg/100",
+      "price": "179 000 Ft",
+      "location": "VIII. kerület",
+      "updated": "ma 10:23"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_iphone_14_pro_max_128gb_deep_purple_4/friss.html",
+      "title": "Apple iPhone 14 Pro Max 128GB Deep Purple",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7662576/img_3670.jpg/100",
+      "price": "179 000 Ft",
+      "location": "VIII. kerület",
+      "updated": "ma 10:23"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_iphone_16e_512gb_fekete/friss.html",
+      "title": "Apple iPhone 16e 512GB fekete",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7662589/img_3674.jpg/100",
+      "price": "239 000 Ft",
+      "location": "VIII. kerület",
+      "updated": "ma 10:23"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_iphone_16_128gb_ultramarine_bontatlan/friss.html",
+      "title": "Apple iPhone 16 128GB Ultramarine bontatlan",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7662598/img_3678.jpg/100",
+      "price": "269 000 Ft",
+      "location": "VIII. kerület",
+      "updated": "ma 10:23"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/huawei_mate_x6_512gb/friss.html",
+      "title": "Huawei Mate X6 512GB",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7662627/img_3684.jpg/100",
+      "price": "255 000 Ft",
+      "location": "VIII. kerület",
+      "updated": "ma 10:23"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/xiaomi_15_ultra_16_512gb_fekete/friss.html",
+      "title": "Xiaomi 15 Ultra 16/512GB fekete",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7670465/519709bd-7866-483f-aa4b-50bf33e6c8f5.jpg/100",
+      "price": "269 000 Ft",
+      "location": "VIII. kerület",
+      "updated": "ma 10:23"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/microsoft_surface_pro_9_i7_1255u_16gb_ram_256gb_nv/friss.html",
+      "title": "Eladó Microsoft Surface Pro 9 / i7 1255U / 16GB RAM / 256GB NVMe / Toll+Dokkoló",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7669057/img_20260817_123722.jpg/100",
+      "price": "250 000 Ft",
+      "location": "Budapest, Dunavarsány, Taksony",
+      "updated": "ma 10:20"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/galaxy_watch_6_classic_47_mm_fekete_spigen_rugged/friss.html",
+      "title": "Galaxy Watch 6 CLASSIC (47 MM) fekete Spigen RUGGED ARMOR \"PRO\" tok",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7638351/dro-8809896748018-1690513513.jpg/100",
+      "price": "3 000 Ft",
+      "location": "XIII. kerület",
+      "updated": "ma 10:19"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/motorola_moto_g32/friss.html",
+      "title": "Motorola Moto g32 6/128 Gb dual sim",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7668597/img_20240323_093044.jpg/100",
+      "price": "24 999 Ft",
+      "location": "Budapest",
+      "updated": "ma 10:19"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/xiaomi_watch_s4_foxpost_az_arban/friss.html",
+      "title": "Xiaomi watch S4 /foxpost az árban/",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7668917/20260711_101232.jpg/100",
+      "price": "25 000 Ft",
+      "location": "Kecel",
+      "updated": "ma 10:19"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/nokia_lumia_550_3/friss.html",
+      "title": "Nokia Lumia 550 - saját dobozban, töltővel",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7673194/20260820_130924.jpg/100",
+      "price": "8 000 Ft",
+      "location": "XVI. kerület",
+      "updated": "ma 10:18"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/sony_akkumulatorok_sny_sca6_sny_shd4_gyari_uj/friss.html",
+      "title": "Sony Akkumulátor - SNY SCA6 - SNY SHD4 - gyári új",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7637075/01.jpg/100",
+      "price": "8 000 Ft",
+      "location": "XVII. kerület",
+      "updated": "ma 10:18"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/mobiltelefonok_szoftveres_hibainak_elharitasa_1/friss.html",
+      "title": "Mobiltelefonok szoftveres hibáinak elhárítása",
+      "imageSrc": "//cdn.rios.hu/dl/uad/noimage.small.png",
+      "price": "5 000 Ft",
+      "location": "Dunaújváros",
+      "updated": "ma 10:17"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/elado_sony_xperia_tipo_st21i_2/friss.html",
+      "title": "Eladó Sony Xperia Tipo (st21i)",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7665196/img_20260814_121501.jpg/100",
+      "price": "4 000 Ft",
+      "location": "XIII. kerület",
+      "updated": "ma 10:16"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/nokia_3310_eredeti_tolto_elado/friss.html",
+      "title": "Nokia 3310 + eredeti töltő eladó",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7665092/img_20260814_110732.jpg/100",
+      "price": "5 000 Ft",
+      "location": "XIII. kerület",
+      "updated": "ma 10:16"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/elado_samsung_galaxy_a54_5g_8_128gb_feher/friss.html",
+      "title": "Eladó - Samsung Galaxy A54 5G 8/128GB fehér",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7663135/img_0971.jpg/100",
+      "price": "45 000 Ft",
+      "location": "XIV. kerület",
+      "updated": "ma 10:16"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/xiaomi_watch_s4_okosora_3/friss.html",
+      "title": "Xiaomi Watch S4 okosóra",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7673860/img_20260821_055355671_hdr.jpg/100",
+      "price": "25 000 Ft",
+      "location": "Debrecen",
+      "updated": "ma 10:15"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_17_pro_max_spigen_ultra_hybrid_t_magsafe_gl/friss.html",
+      "title": "iPhone 17 Pro Max Spigen Ultra Hybrid T MagSafe Glossy Orange tok",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7660797/img_20260810_170545.jpg/100",
+      "price": "5 000 Ft",
+      "location": "Aba, Székesfehérvár",
+      "updated": "ma 10:15"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_15_pro_max_finewoven_tok_istyle_vasarlas/friss.html",
+      "title": "iPhone 15 Pro Max FineWoven Tok ( iStyle vasárlás)",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7660801/img_20260810_170720.jpg/100",
+      "price": "7 000 Ft",
+      "location": "Aba, Székesfehérvár",
+      "updated": "ma 10:15"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/samsung_galaxy_ring_fekete_10-es_meret_2027_06ig_a/friss.html",
+      "title": "Samsung Galaxy Ring Fekete 10-es méret 2027.06ig Alza Gari!",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7660807/img_20260810_170059.jpg/100",
+      "price": "64 900 Ft",
+      "location": "Aba, Székesfehérvár",
+      "updated": "ma 10:14"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/elado_polar_vantage_m3_bontatlan_dobozos/friss.html",
+      "title": "Eladó Polar Vantage M3, bontatlan dobozos!!",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7660040/screenshot_2026-08-10_135801.jpg/100",
+      "price": "105 000 Ft",
+      "location": "XXI. kerület",
+      "updated": "ma 10:14"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/huawei_watch_5_titanium_46mm_e-sim_22_honap_gari/friss.html",
+      "title": "Huawei Watch 5 Titanium 46mm E-Sim 22 Hónap gari",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7661077/img_20260810_164952.jpg/100",
+      "price": "95 000 Ft",
+      "location": "Aba, Székesfehérvár",
+      "updated": "ma 10:14"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_14_pro_512gb_gold_elado/friss.html",
+      "title": "iPhone 14 Pro 512GB Gold ELADÓ!!",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7654839/6037246657260359637.jpg/100",
+      "price": "160 000 Ft",
+      "location": "XXI. kerület",
+      "updated": "ma 10:14"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_12_128_gb_fuggetlen_toltest_nem_veszi/friss.html",
+      "title": "iPhone 12 (128 gb független) TÖLTÉST NEM VESZI",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7674017/img_6503.jpg/100",
+      "price": "20 000 Ft",
+      "location": "Harkány",
+      "updated": "ma 10:13"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_ipad_2_mini_a1489_32gb_mac_tablet_ipad_mini/friss.html",
+      "title": "Apple iPad 2 Mini A1489 32GB Mac Tablet iPad mini 2",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7643145/32gb_4.jpg/100",
+      "price": "15 000 Ft",
+      "location": "Debrecen",
+      "updated": "ma 10:13"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/apple_ipad_2_mini_a1489_64gb_mac_tablet_ipad_mini/friss.html",
+      "title": "Apple iPad 2 Mini A1489 64GB Mac Tablet iPad mini 2",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-07/7643144/64gb_1.jpg/100",
+      "price": "14 000 Ft",
+      "location": "Debrecen",
+      "updated": "ma 10:13"
+    },
+    {
+      "url": "https://hardverapro.hu/apro/iphone_15_128gb_green_fuggetlen_91_os_akku/friss.html",
+      "title": "iPhone 15 128GB green / független / 91%-os akku",
+      "imageSrc": "//cdn.rios.hu/dl/uad/2026-08/7671088/img_6439.jpg/100",
+      "price": "122 000 Ft",
+      "location": "Hódmezővásárhely",
+      "updated": "ma 10:12"
+    }
+  ],
+  "newItems": []
+}
